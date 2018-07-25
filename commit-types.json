@@ -2,35 +2,63 @@
   "types": {
     "feat": {
       "description": "新機能",
-      "title": "機能"
+      "title": "Features"
     },
     "fix": {
       "description": "バグ修正",
-      "title": "バグ修正"
+      "title": "Bug Fixes"
+    },
+    "HOTFIX": {
+      "description": "致命的で緊急なバグ修正",
+      "title": "Critical hotfix"
+    },
+    "UI": {
+      "description": "UIやスタイルの更新",
+      "title": "UI"
     },
     "docs": {
       "description": "ドキュメントのみの変更",
-      "title": "ドキュメント"
+      "title": "Documentation"
     },
     "style": {
       "description": "フォーマットの変更（コードの動作に影響しないスペース、フォーマット、セミコロンなど）",
-      "title": "スタイル"
+      "title": "Styles"
+    },
+    "texts": {
+      "description": "文字や文章の更新",
+      "title": "Text and literals"
+    },
+    "i18n": {
+      "description": "国際化",
+      "title": "Internationalization"
+    },
+    "typo": {
+      "description": "タイプミスの修正",
+      "title": "Typos"
     },
     "refactor": {
       "description": "リファクタリングのための変更（機能追加やバグ修正を含まない）",
-      "title": "リファクタ"
+      "title": "Code Refactoring"
     },
     "perf": {
       "description": "パフォーマンスの改善のための変更",
-      "title": "パフォーマンス改善"
+      "title": "Performance Improvements"
+    },
+    "ux": {
+      "description": "ユーザーエクスペリエンス/ユーザビリティの改善",
+      "title": "UX"
     },
     "test": {
       "description": "不足テストの追加や既存テストの修正",
-      "title": "テスト"
+      "title": "Tests"
+    },
+    "config": {
+      "description": "設定の追加や変更",
+      "title": "Configuration"
     },
     "build": {
       "description": "ビルドシステムや外部依存に関する変更（スコープ例: gulp, broccoli, npm）",
-      "title": "ビルド"
+      "title": "Builds"
     },
     "ci": {
       "description": "CI用の設定やスクリプトに関する変更（スコープ例: Travis, Circle, BrowserStack, SauceLabs)",
@@ -38,11 +66,11 @@
     },
     "chore": {
       "description": "その他の変更（ソースやテストの変更を含まない）",
-      "title": "雑務"
+      "title": "Chores"
     },
     "revert": {
       "description": "以前のコミットに復帰",
-      "title": "復帰"
+      "title": "Reverts"
     }
   }
 }
